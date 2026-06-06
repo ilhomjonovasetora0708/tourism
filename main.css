@@ -44,3 +44,35 @@ header {
     backdrop-filter: blur(12px);
     border-bottom: 1px solid rgba(255, 255, 255, .08);
 }
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+}
+
+.logo {
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+    color: #00e5ff;
+    font-weight: 700;
+}
+
+.logo i {
+    margin-right: 10px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+
+.menu a:hover {
+    color: #00e5ff;
+}
