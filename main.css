@@ -227,3 +227,38 @@ header {
 .hotel-card h3 {
     margin-bottom: 10px;
 }
+/* ==========================
+   FLEET
+========================== */
+
+.fleet {
+    padding: 120px 0;
+}
+
+.fleet-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.fleet-card {
+    background: linear-gradient(135deg,
+            #0f172a,
+            #1e293b);
+
+    padding: 50px;
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid rgba(0, 229, 255, .2);
+    transition: .4s;
+}
+.fleet-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 35px #7b2cff55;
+}
+
+.fleet-card h3 {
+    color: #00e5ff;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
