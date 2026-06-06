@@ -262,3 +262,17 @@ header {
     margin-bottom: 15px;
     font-size: 30px;
 }
+/* ==========================
+   STARS
+========================== */
+
+.stars {
+    position: absolute;
+    inset: 0;
+    background-image:
+        radial-gradient(white 1px,
+            transparent 1px);
+
+    background-size: 40px 40px;
+    opacity: .2;
+}
