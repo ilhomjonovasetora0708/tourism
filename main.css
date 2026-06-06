@@ -76,3 +76,29 @@ header {
 .menu a:hover {
     color: #00e5ff;
 }
+.book-btn {
+    background: linear-gradient(45deg,
+            #00e5ff,
+            #7b2cff);
+
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* ==========================
+   HERO
+========================== */
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
